@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Forums">
+  <DataContextMoniker Name="/ForumsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="04c60988-5e11-45c4-b090-8c2e91c84226" absoluteBounds="3.875, 0.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/ForumsDataContext/Table_Affsbook_Forum_Thread" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5a4f1f6-8e5a-4cf4-9bda-df87d62c73db" absoluteBounds="3.89, 1.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

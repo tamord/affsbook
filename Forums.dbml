@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="adsrush" Class="ForumsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=adsrush.database.windows.net;Initial Catalog=adsrush;User ID=tamordy;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="adsrushConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_Affsbook_Forum_Threads" Member="Table_Affsbook_Forum_Threads">
+    <Type Name="Table_Affsbook_Forum_Thread">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="thread_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="startdate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="authoraid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="autherusername" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="subject" Type="System.String" DbType="NVarChar(1500)" CanBeNull="true" />
+      <Column Name="body" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+      <Column Name="replynumber" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="replyaid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="replyusername" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="niche1" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="niche2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="niche3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="replies" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="views" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="the_reply_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
